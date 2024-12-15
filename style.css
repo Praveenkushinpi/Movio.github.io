@@ -1,1 +1,112 @@
-
+body {
+font-family: 'Arial', sans-serif;
+background: linear-gradient(to right, #2c3e50, #3498db);
+color: white;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.container {
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+header {
+margin-bottom: 20px;
+}
+.title {
+font-size: 3rem;
+color: #FFD700;
+text-shadow: 0px 0px 15px #FFD700;
+}
+.instructions {
+font-size: 1.2rem;
+margin-top: 10px;
+}
+.search-section {
+margin: 20px 0;
+}
+input {
+width: 60%;
+padding: 10px;
+border-radius: 8px;
+border: none;
+outline: none;
+font-size: 1rem;
+}
+button {
+padding: 10px 20px;
+background-color: #FFD700;
+border: none;
+border-radius: 8px;
+color: black;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover {
+background-color: #FFA500;
+}
+#suggestions {
+margin-top: 40px;
+}
+.suggested-movies {
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.suggested-movie {
+width: 200px;
+background: #333;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #FFD700;
+padding: 10px;
+transition: transform 0.3s ease;
+}
+.suggested-movie:hover {
+transform: scale(1.1);
+}
+.suggested-movie img {
+width: 100%;
+border-radius: 8px;
+}
+.suggested-movie p {
+margin-top: 10px;
+}
+.suggested-movie a {
+text-decoration: none;
+color: #FFD700;
+font-weight: bold;
+transition: 0.3s;
+}
+.suggested-movie a:hover {
+color: #FFA500;
+}
+#movieContainer {
+margin-top: 20px;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.movie {
+background: #444;
+padding: 10px;
+width: 200px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #FFD700;
+transition: transform 0.3s ease;
+}
+.movie:hover {
+transform: scale(1.05);
+}
+.movie img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+.movie h2 {
+margin-top: 10px;
+font-size: 1rem;
+}
